@@ -42,6 +42,10 @@ async def get_chatbot_css():
 async def get_app_js():
     return FileResponse("static/app.js", media_type="application/javascript")
 
+@app.get("/icon")
+async def get_icon():
+    image_path = "static/images/icon.svg"
+    return FileResponse(image_path)
 
 @app.post("/predict")
 async def predict(message: Message):

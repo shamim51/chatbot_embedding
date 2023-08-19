@@ -5,7 +5,7 @@ chatbotContainer.innerHTML = `
         <div class="chatbox__support">
             <div class="chatbox__header">
                 <div class="chatbox__image--header">
-                    <img src="https://ebot.onrender.com/icon" alt="image">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
                 </div>
                 <div class="chatbox__content--header">
                     <h4 class="chatbox__heading--header">Chat support</h4>
@@ -21,7 +21,7 @@ chatbotContainer.innerHTML = `
             </div>
         </div>
         <div class="chatbox__button">
-            <button><img src="https://fabulous-belekoy-8e0af5.netlify.app/images/chatbox-icon.svg" /></button>
+            <button><img src="https://ebot.onrender.com/icon" /></button>
         </div>
 `;
 

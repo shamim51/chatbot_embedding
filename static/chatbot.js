@@ -29,13 +29,13 @@ chatbotContainer.innerHTML = `
 //(CSS file)
 const styles = document.createElement("link");
 styles.rel = "stylesheet";
-styles.href = "http://127.0.0.1:8000/css";
+styles.href = "https://ebot.onrender.com/css";
 https://050a-103-166-40-13.ngrok-free.app
 document.head.appendChild(styles);
 
 // (JS file)
 const script = document.createElement("script");
-script.src = "http://127.0.0.1:8000/js"; 
+script.src = "https://ebot.onrender.com/js"; 
 document.body.appendChild(script);
 
 // Append the chatbot container to the document body
